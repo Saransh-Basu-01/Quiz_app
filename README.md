@@ -1,12 +1,33 @@
-# React + Vite
+# 🧠 React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully functional and responsive Quiz App built with React that uses a local JavaScript file (`quizQuestions.js`) as the source of quiz questions. It selects a random set of questions, shuffles the answer options, and tracks the user's score.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Loads quiz questions from a local JavaScript file
+- Randomly selects 20 questions each session
+- Shuffles multiple-choice answer options for every question
+- Tracks user's score
+- Displays result at the end of the quiz
+- Responsive design using Tailwind CSS
+- Simple and clean UI
+- Option to restart the quiz
 
-## Expanding the ESLint configuration
+## 🧪 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Vite)
+- JavaScript (ES6+)
+- Tailwind CSS
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/react-quiz-app.git
+cd react-quiz-app
+npm install
+npm run dev
+```
